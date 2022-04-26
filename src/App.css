@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: purple; */
+  height: 100vh;
+  
+}
+
+
+.App-header {
+  background-color: white;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.2vmin);
+  /* color: purple; */
+  width: 60%;
+  /* border: 2px solid white; */
+  border-radius: 2rem;
+}
+#text {
+  font-size: 2.5rem;
+  /* border: 2px solid purple; */
+}
+#author {
+  font-size: 1.4rem;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  /* border: 2px solid white; */
+  width: 60%;
+}
+#tweetButton{
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#tweetButton a{
+  color: white;
+  text-decoration: none;
+}
+
+#new-quote{
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
